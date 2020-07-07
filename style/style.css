@@ -1,0 +1,49 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'gill-sans_Light';
+  src: url('../fonts/GillSansStd-Light.otf');
+  src: url('../fonts/GillSansStd-Light.otf') format('embedded-opentype'),
+       /*url('../fonts/glassure.woff2') format('woff2'),
+       url('../fonts/glassure.woff') format('woff'),
+       url('../fonts/glassure.ttf') format('truetype'),
+       url('../fonts/glassure.svg') format('svg');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General */
+
+* {
+
+/* Variables 
+/* Using: var(--cor-bg-principal); */ 
+  --dark: #000;
+  --light: #FFF;
+  --earth-red: #9D421E;
+  --orange: #CA632C;
+  --sand: #E5A986;
+  --dark-green: #181A15;
+  --green: #303329;
+  --green-gray: #B5B6B2;
+  --light-green-gray: #E4E5E0;
+
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light);
+}
+
+h1 {
+  font-family: gill-sans_Light;
+  font-size: 64px;
+  color: var(--green-gray);
+  padding: 64px;
+  letter-spacing: 24px;
+  margin: 0;
+}

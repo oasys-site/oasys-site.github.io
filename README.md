@@ -1,2 +1,2 @@
-# oasys-site.github.io
-Oasys Website
+# Oasys
+Pare, inspire, respire :) 
